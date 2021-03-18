@@ -1068,13 +1068,7 @@ svg {
     transform: translate3d(0, -50%, 0);
     pointer-events: auto; }
 
-iframe.kakao {
-  top: 10%;
-  left: 50%;
-  width: 375px;
-  height: 100%;
-  max-height: calc(100vh - 50px);
-  transform: translate3d(-50%, -10%, 0); }
+
 
 .overlay_bg {
   position: absolute;
