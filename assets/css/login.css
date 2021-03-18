@@ -9,7 +9,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background: url("./assets/img/about.jpg") no-repeat center;
+        background: url("../img/about.jpg") no-repeat center;
         background-size: cover;
 
      }
@@ -57,6 +57,17 @@
          font-size: 18px;
          color: #999;
          transition: all .5s ease;
+     }
+     .int-area label.warning {
+         color: red im !important;
+         animation: warning .3s ease;
+         animation-iteration-count: 3;
+     }
+     @keyframes warning {
+         0% { transform: translate(-8px);}
+         25% { transform: translateX(8px);}
+         50% { transform: translateX(-8px);}
+         75% { transform: translate(8px);}
      }
      .int-area label.warning {
          color: red !important;
