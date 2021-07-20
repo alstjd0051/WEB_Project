@@ -2060,7 +2060,7 @@ svg {
     display: none !important;
   }
   .body_change-btn {
-    padding: 2.5rem 0;
+    padding: 2.5rem 0px 2.5rem 10rem;
   }
   .body_change-btn .small-circle {
     width: 0.625rem;
